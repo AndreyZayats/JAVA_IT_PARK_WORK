@@ -10,7 +10,7 @@ public class Program {
             if(a <= 1) {
             	break;
             }
-            if((isPrime(a) | a == 2 | a == 3))
+            if(isPrime(a))
             {
                 result *= a;
             }
