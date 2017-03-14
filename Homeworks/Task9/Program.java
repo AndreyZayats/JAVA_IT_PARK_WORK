@@ -11,10 +11,9 @@ class Program {
     }
 
     public static void findMin(int a[][]) {
-        int min = 0;
 
         for(int i = 0; i < a.length; i++) {
-            min = Integer.MAX_VALUE;
+            int min = Integer.MAX_VALUE;
             for(int j = 0; j < a[i].length; j++) {
                 if(a[i][j] < min) {
                     min = a[i][j];
