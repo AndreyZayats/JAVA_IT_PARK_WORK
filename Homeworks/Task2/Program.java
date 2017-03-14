@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Program {
+class Program {
 	public static void main(String[] args) {
 		int sum = 0;
 		int count = 0;
