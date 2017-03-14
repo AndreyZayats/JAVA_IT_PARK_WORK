@@ -21,7 +21,6 @@ class Program {
                 }
             }
             System.out.println("MinElement in the " + (i+1) + " line is " + min);
-
         }
     }
 }
