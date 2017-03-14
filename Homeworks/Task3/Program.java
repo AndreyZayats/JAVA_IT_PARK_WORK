@@ -30,6 +30,7 @@ class Program {
             }
             
         }
+
         System.out.println(result);
     }
 
