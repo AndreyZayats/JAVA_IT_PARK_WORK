@@ -1,4 +1,4 @@
-Square Area: 16.0 Perimeter: 16.0
-Square Area: 9.0 Perimeter: 12.0
-Triangle Area: 14.981238266578634 Perimeter: 19.0
-Triangle Area: 14.696938456699069 Perimeter: 18.0
+sq1 Area: 16.0 Perimeter: 16.0
+sq2 Area: 9.0 Perimeter: 12.0
+tr1 Area: 14.981238266578634 Perimeter: 19.0
+tr2 Area: 14.696938456699069 Perimeter: 18.0

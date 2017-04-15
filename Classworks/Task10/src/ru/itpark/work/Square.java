@@ -5,8 +5,10 @@ package ru.itpark.work;
  */
 public class Square implements Figure {
     private double a;
+    private String name;
 
-    public Square(double a) {
+    public Square(String name, double a) {
+        this.name = name;
         this.a = a;
     }
 
@@ -18,7 +20,7 @@ public class Square implements Figure {
         return 4 * a;
     }
 
-    public String toString(Square square) {
-        return square.getClass().getSimpleName() + " Area: " + area() + " Perimeter: " + perimeter() + "\r\n";
+    public String toString() {
+        return name + " Area: " + area() + " Perimeter: " + perimeter();
     }
 }
