@@ -12,6 +12,8 @@ public class Main  {
         Rectangle rectangle1 = new Rectangle(2, 4);
         Rectangle rectangle2 = new Rectangle(2, 4);
         Object objects[] = new Object[]{square1, square2, triangle1, triangle2, rectangle1, rectangle2};
+
+        System.out.println("Hello");
     }
 }
 
