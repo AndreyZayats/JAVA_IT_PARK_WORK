@@ -4,6 +4,19 @@ import java.io.*;
 
 public class Main  {
 
+    public static String readNextLine(InputStream inputStream) throws Exception {
+        String result = "";
+
+        int character = inputStream.read();
+
+        while (character != '\n') {
+            result += (char) character;
+            character = inputStream.read();
+        }
+
+        return result;
+    }
+
     public static void main(String[] args) throws Exception {
         OutputStream outputStream = new FileOutputStream("output.txt");
 
@@ -17,5 +30,11 @@ public class Main  {
         for(int i = 0; i < description.length; i++) {
             outputStream.write((description[i].toString() + "\r\n").getBytes());
         }
+
+        InputStream inputStream = new FileInputStream("output.txt");
+        System.out.println(readNextLine(inputStream));
+        System.out.println(readNextLine(inputStream));
+
+        System.out.println();
     }
 }
